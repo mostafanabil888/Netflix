@@ -1,12 +1,11 @@
-import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import requesttv from '../../requests/requesttv.JS'
 import Header from '../../components/Header.jsx'
 import { server } from "../../config/index";
 import axios from "axios";
 import Row from '../../components/Row';
 import Navbar  from '../../components/Navbar';
-export default function index( {popular}) {
+export default function TV( {popular}) {
   const [inputText, setInputText] = useState("");
   let inputHandler = (e) => {
     var lowerCase = e.target.value.toLowerCase();
