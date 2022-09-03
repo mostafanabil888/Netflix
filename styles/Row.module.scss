@@ -1,0 +1,54 @@
+.Row {
+    h2 {
+        font-size: 1.4rem;
+        margin: 1rem;
+    }
+    .moviebox {
+        margin: 1rem 0;
+        position: relative;
+        height: 200px;
+        .imgbox{
+            height: 100%;
+            transition: all 0.3s ease-in-out;
+        }
+        // img{
+        //     height: 100%;
+        //     width: 100%;
+        // }
+        .moviedetails {
+            position: absolute;
+            top: 15%;
+            left: 5%;
+            width: 70%;
+            height: 100%;
+            transition: .5s;
+            transform-origin: left;
+            transform: perspective(2000px) rotateY(-90deg);
+            h3 {
+                color: #fff;
+                font-size: 1rem;
+                font-weight: bolder;
+            }
+            p {
+                color: #fff;
+                font-size: 0.7rem;
+                font-weight: 500;
+                margin: 10px 0;
+            }
+        }
+        &:hover {
+            z-index: 22;
+           
+            .imgbox{
+                // opacity: .5;
+                transform: scale(1.6,1.6);
+                
+            }
+            .moviedetails {
+                display: block;
+                transform: perspective(2000px) rotateY(0deg);
+            }
+
+        }
+    }
+}   

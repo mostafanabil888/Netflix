@@ -1,0 +1,48 @@
+.Navbar {
+    padding: 0 2rem;
+    .searchbox {
+        input {
+            width: 40px;
+            height: 40px;
+            background: #141414;
+            border: none;
+            font-size: 14px;
+            float: left;
+            color: #262626;
+            padding-left: 35px;
+            border-radius: 5px;
+            color: #fff;
+            outline: none;
+            width: 300px;
+            background: #000;
+            -webkit-transition: width .55s ease;
+            transition: width .55s ease;
+        }
+    }
+    a {
+        text-transform: capitalize;
+        margin-right: 0.7rem;
+        font-size: 14px;
+        font-weight: 550;
+        cursor: pointer;
+        color: #e5e5e5;
+        text-transform: capitalize;
+        &:hover{
+            color: #fff;
+        }
+    }
+    .NavIcon{
+        border: none;
+        background-image: none !important;
+        color: #fff;
+        font-size: 25px;
+        color: #fff;
+        padding: 10px;
+        transition: all .10s ease;
+        cursor: pointer;
+        &:focus{
+            box-shadow: none;
+        }
+    }
+
+}
