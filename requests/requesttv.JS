@@ -1,6 +1,6 @@
 const BASE_URL = 'https://api.themoviedb.org/3'
 const API_KEY = '95e294f2ba1ab94fc7c0af9eef7a2ac7'
-
+// this for row in tv show page
 
 const requesttv = {
   fetchTrending: `${BASE_URL}/trending/all/week?api_key=${API_KEY}&language=en-US`,

@@ -2,22 +2,20 @@
     height: 100vh;
     margin-bottom: 2rem;
     z-index: 1;
-   .Swiper{
     margin-bottom: 2rem;
-    position: relative;
-    height: 100vh;
+   .Swiper{
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
     a{
         color: rgb(255, 255, 255) !important;
     }
-    img{
-        width: 100%;
-        height: 100%;
-    }
     .boxdetails{
-        position: absolute;
+        height: 100%;
+        display: flex;
+        align-items: center;
+
         padding: 1rem 0.5rem;
-        top: 45%;
-        left: 5%;
         h2{
             font-size: 1.5rem;
             font-weight: 900;

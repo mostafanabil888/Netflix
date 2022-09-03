@@ -1,4 +1,5 @@
 .Row {
+    padding: 2rem 0;
     h2 {
         font-size: 1.4rem;
         margin: 1rem;
@@ -11,10 +12,6 @@
             height: 100%;
             transition: all 0.3s ease-in-out;
         }
-        // img{
-        //     height: 100%;
-        //     width: 100%;
-        // }
         .moviedetails {
             position: absolute;
             top: 15%;
